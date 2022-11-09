@@ -1,10 +1,15 @@
 
 import './App.css';
+import AdminPage from './components/Admin/AdminPage';
+import Menu from './components/Admin/Menu';
+
 
 function App() {
   return (
     <div className="App">
-<h1>Admin</h1>
+      <Menu/>
+      <AdminPage/>
+
     </div>
   );
 }
