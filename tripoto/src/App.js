@@ -7,8 +7,11 @@ import Menu from './components/Admin/Menu';
 function App() {
   return (
     <div className="App">
+
       <Menu/>
       <AdminPage/>
+
+
 
     </div>
   );
