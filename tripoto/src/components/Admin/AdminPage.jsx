@@ -20,8 +20,11 @@ function AdminPage() {
     <Input placeholder='Enter Location' />
     <FormLabel>Enter Price </FormLabel>
     <Input placeholder='First Price' />
-    <FormLabel>Enter Price </FormLabel>
-    <Input placeholder='First Price' />
+    <FormLabel>Enter Brand Logo </FormLabel>
+    <Input placeholder='Enter Brand Logo' />
+    <FormLabel>Enter Brand name </FormLabel>
+    <Input placeholder='Enter Brand name' />
+  <Input type="submit" />
   </FormControl>
 //     <Select  placeholder='Select Country'>
 //     <option value='option1'>India</option>
