@@ -25,14 +25,14 @@ function Menu() {
           
           
               <>
-                {/* <RadioGroup defaultValue={placement} onChange={setPlacement}>
+                <RadioGroup defaultValue={placement} onChange={setPlacement}>
                   <Stack direction='row' mb='4'>
                     <Radio value='top'>Top</Radio>
                     <Radio value='right'>Right</Radio>
                     <Radio value='bottom'>Bottom</Radio>
                     <Radio value='left'>Left</Radio>
                   </Stack>
-                </RadioGroup> */}
+                </RadioGroup>
                 <Heading>Welcome to admin Page</Heading>
                 <Button colorScheme='blue' onClick={onOpen}>
                   Menu
