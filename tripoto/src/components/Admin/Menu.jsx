@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
     Drawer,
@@ -7,12 +8,10 @@ useDisclosure,
     DrawerHeader,
     DrawerOverlay,
     DrawerContent,
-    RadioGroup,
-    Stack,
-    Radio,
+  
     Button,
     Heading,
-    Link,
+   
 
   } from '@chakra-ui/react'
 
@@ -20,19 +19,14 @@ function Menu() {
     
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [placement, setPlacement] = React.useState('left')
+
+    // const navigate=useNavigate()
     return(
       
           
           
               <>
-                <RadioGroup defaultValue={placement} onChange={setPlacement}>
-                  <Stack direction='row' mb='4'>
-                    <Radio value='top'>Top</Radio>
-                    <Radio value='right'>Right</Radio>
-                    <Radio value='bottom'>Bottom</Radio>
-                    <Radio value='left'>Left</Radio>
-                  </Stack>
-                </RadioGroup>
+               
                 <Heading>Welcome to admin Page</Heading>
                 <Button colorScheme='blue' onClick={onOpen}>
                   Menu
@@ -40,11 +34,16 @@ function Menu() {
                 <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
                   <DrawerOverlay />
                   <DrawerContent>
-                    <DrawerHeader borderBottomWidth='1px'>Basic Drawer</DrawerHeader>
+                    <DrawerHeader borderBottomWidth='1px' style={{color:"blue"}} >Tripito</DrawerHeader>
                     <DrawerBody>
-                     <Link path="./Hotel" ><p>Some contents...</p></Link> 
-                      <p>Some contents...</p>
-                      <p>Some contents...</p>
+                    <Link to='/hotel'  >  <h1>MY DATA </h1></Link>
+                      {/* <p>FAVOURITES</p>
+                      <p>OCASIONAL</p> */}
+
+                      
+
+
+
                     </DrawerBody>
                   </DrawerContent>
                 </Drawer>
