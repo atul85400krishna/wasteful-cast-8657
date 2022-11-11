@@ -8,6 +8,7 @@ function AdminMain() {
     <div>
          <Menu/>
     <AdminPage/>
+    {/* <Hotel/> */}
     </div>
   )
 }
