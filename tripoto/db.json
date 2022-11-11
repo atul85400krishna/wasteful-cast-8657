@@ -1,0 +1,240 @@
+ {
+  "data":
+  [
+    {
+    "ImgeCrousel": [
+    {
+    "id": 1,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1516992/Image/1663838531_flipbook_banner_2.jpg"
+    },
+    {
+    "id": 2,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1745358/Image/1657185311_baby_shark_banner_web.jpeg"
+    },
+    {
+    "id": 3,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1745358/Image/1644217023_sg_banners_event_01.jpg"
+    },
+    {
+    "id": 4,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1745358/Image/1643970383_sg_banners_04.jpg"
+    },
+    {
+    "id": 5,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1745358/Image/1643971062_sg_banners_07_1.jpg"
+    }
+    ],
+    "SGShop": [
+    {
+    "id": 1,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1643284911_container_3_4.jpg",
+    "title": "Wines, Self Care, Gifts And More: Shop Singapore-Special Products On Krisshop"
+    },
+    {
+    "id": 2,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1643284952_container_3_2.jpg",
+    "title": "Airbnb’s Online Experiences: Made With Passion"
+    },
+    {
+    "id": 3,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1643284809_container_3_1.jpg",
+    "title": "Explore The Fabnest And Baju By Oniatta Fashion Line On LBB"
+    }
+    ],
+    "Events": [
+    {
+    "id": 1,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178326_1.jpg"
+    },
+    {
+    "id": 2,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178357_2.jpg"
+    },
+    {
+    "id": 3,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178374_3.jpg"
+    },
+    {
+    "id": 4,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178396_4.jpg"
+    },
+    {
+    "id": 5,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178422_5.jpg"
+    },
+    {
+    "id": 6,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178447_6.jpg"
+    },
+    {
+    "id": 7,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1645178473_7.jpg"
+    },
+    {
+    "id": 8,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1643281749_card_8.jpg"
+    },
+    {
+    "id": 9,
+    "link": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1643281767_card_9.jpg"
+    }
+    ],
+    "BorderedCrousel": [
+    {
+    "id": 1,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1756031/Image/1587632066_sgt_new_banner_option_hds_collectors.png"
+    },
+    {
+    "id": 2,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1745358/Image/1620810635_web.jpg"
+    },
+    {
+    "id": 3,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1756031/Image/1587632086_sgt_new_banner_option_hds_foodies.png"
+    },
+    {
+    "id": 4,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1756031/Image/1587638865_socialisers.jpg"
+    },
+    {
+    "id": 5,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1756031/Image/1587638876_culture_shapers.jpg"
+    },
+    {
+    "id": 6,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1756031/Image/1587638896_explorers.jpg"
+    },
+    {
+    "id": 7,
+    "image": "https://cdn1.tripoto.com/media/filter/nxxl/img/1756031/Image/1587638965_action_seekers.jpg"
+    }
+    ],
+    "TopBeach": [
+    {
+    "id": 1,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638203421_1582096766_img_7010_2.jpg",
+    "title": "MALDIVES: All You Need To Know",
+    "by": "Kadambari Bhatte (curlytravelmess)"
+    },
+    {
+    "id": 2,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638203256_1608028918_2020_12_15.jpg",
+    "title": "GOA: 10 Quiet Spots For Nature Lovers",
+    "by": "Kanj Saurav"
+    },
+    {
+    "id": 3,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638203944_53882629_414914815921828_3173255250827932737_n.jpg",
+    "title": "ANDAMAN: A Complete 7 Day Itinerary",
+    "by": "Saumiabee"
+    },
+    {
+    "id": 4,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638203211_1482481434_kaul.jpg",
+    "title": "GOKARNA: The Only Itinerary You Need",
+    "by": "Prateek Dham"
+    },
+    {
+    "id": 5,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638203510_1557406065_1554979521_dsc_2027.jpg",
+    "title": "VARKALA: Goa's Secluded Sister That We All Love",
+    "by": "Anshul Sharma"
+    },
+    {
+    "id": 6,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638203734_1505389545_32714606841_dbea5d132e_o.jpg",
+    "title": "NAGERCOIL: An Offbeat Paradise Near Pondicherry",
+    "by": "Sonalika Debnath"
+    },
+    {
+    "id": 7,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638204031_1637718621_istock_153761009.jpg",
+    "title": "LAKSHADWEEP: The Hottest Indian Beach Destination For 2022",
+    "by": " Kadambari Bhatte (curlytravelmess)"
+    },
+    {
+    "id": 8,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638204320_photo_1507525428034_b723cf961d3e.jpeg",
+    "title": "MAHARASHTRA: 7 Days 7 Beaches",
+    "by": " Krutarth"
+    },
+    {
+    "id": 9,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638204470_photo_1432889490240_84df33d47091.jpeg",
+    "title": "GUJARAT: An Untouched Beach",
+    "by": "Jalpa Rathod Chauhan"
+    }
+    ],
+    "VlogBeach": [
+    {
+    "id": 1,
+    "image": "https://image.mux.com/ZU3q3jI5019sc6s00t2FJDbfEvfIifp001H/thumbnail.jpg?width=600&height=600&time=2.0",
+    "title": "The Best Properties In South Goa Under Rs 2000 For A Fabulous Vacation",
+    "by": " Namita Mittal"
+    },
+    {
+    "id": 2,
+    "image": "https://image.mux.com/pMwy3nH00LtaJB2VV00AZqZZaXGUFQQMyT/thumbnail.jpg?width=600&height=600&time=3.87",
+    "title": "Alleppey On A Budget - Places To Stay In Under 2K",
+    "by": "Namita Mittal"
+    },
+    {
+    "id": 3,
+    "image": "https://image.mux.com/yuG00ACN2007NdyiA4n3k1icnps2RAvLuf/thumbnail.jpg?width=600&height=600&time=3.03",
+    "title": "5 Best, Top-Rated Resorts In Goa For A Beachside Vacation",
+    "by": "Namita Mittal"
+    },
+    {
+    "id": 4,
+    "image": "https://image.mux.com/5uE02UEUOA9coGjbwGao714HjeZjwX9HJ/thumbnail.jpg?width=600&height=600&time=3.0",
+    "title": "Hidden Gems In Andaman And Nicobar Islands That You Must See #UndiscoveredIndia",
+    "by": "Namita Mittal"
+    }
+    ],
+    "TopBeaches": [
+    {
+    "id": 1,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1637909845_photo_1471922694854_ff1b63b20054.jpeg",
+    "prop": "BEACH FACING",
+    "title": "Cobo Serai: An Eco Luxury Resort For A Delightful Vacation",
+    "by": "Pankti Shah"
+    },
+    {
+    "id": 2,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638205527_1500880740_dune.jpg",
+    "prop": "ECO VILLAGE",
+    "title": "A Magnificent Dune Eco Village In Pondicherry",
+    "by": "Sonalika Debnath"
+    },
+    {
+    "id": 3,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638205722_1625457592_285221875.jpg",
+    "prop": "BUDGET TRAVELLERS",
+    "title": "Stays In Goa Under Rs 2000",
+    "by": "Kadambari Bhattae"
+    },
+    {
+    "id": 4,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638205736_1609417589_itc_g.jpg",
+    "prop": "COASTAL PROPERTIES",
+    "title": "Stunning Properties In Goa For All Kinds Of Travellers",
+    "by": "Yashodhara Roy"
+    },
+    {
+    "id": 5,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638205867_1558616335_1558616298_1463492584_pondy.jpg",
+    "prop": "INDIA'S BEST",
+    "title": "The Definitive Ranking Of Best Beach Resorts In India",
+    "by": "Sreshti Verma"
+    },
+    {
+    "id": 6,
+    "image": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1638205414_1626007223_cover.jpg",
+    "prop": "LUXURY",
+    "title": "9 Georgious Sea Facing Properties In India",
+    "by": "Mastane Musafir"
+    }
+    ]
+    }
+    ]
+ }
