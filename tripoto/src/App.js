@@ -1,10 +1,10 @@
 import "./App.css";
 import "./App.css";
 import { AllRoutes } from "./Routes/Allroutes";
-import { Navbar } from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import { Navbar } from "./components/Navbar";
+import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
-import HamburgerMenu from "./Components/HamburgerMenu";
+import HamburgerMenu from "./components/HamburgerMenu";
 
 function App() {
   const [ham, setHam] = useState(false);
