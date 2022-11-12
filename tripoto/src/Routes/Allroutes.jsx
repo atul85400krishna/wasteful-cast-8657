@@ -1,19 +1,21 @@
 import { Route, Routes } from "react-router-dom";
 import { Heading } from "@chakra-ui/react";
-import Homepage from "../Components/HomepageMain";
+// import Homepage from "../components/HomepageMain";
+import HomePage from "../components/HomepageMain"
 import Packages from "./Packages";
-import Singapore from "../Components/singapore/Singapore";
-import SignUp from "../Components/signup"
-import Beach from "../Components/beaches/Beach";
-import Login from "../Components/LoginIn";
-import Home_1 from "../Components/Home1";
-import PrivateRoute from "../Components/PrivateRoute";
-import SingleCardPage from "../Components/SingleCardPage";
+import Singapore from "../components/singapore/Singapore";
+import SignUp from "../components/signup"
+import Beach from "../components/beaches/Beach";
+import Login from "../components/LoginIn";
+import Home_1 from "../components/Home1";
+import PrivateRoute from "../components/PrivateRoute";
+import SingleCardPage from "../components/SingleCardPage";
 import TripPage from "./TripPage";
-import Booking from "../Components/Booking";
-import Payment from "../Components/Payment/Payment"
+import Booking from "../components/Booking";
+import Payment from "../components/Payment/Payment"
 import Admin from "../AdminPayment/Admin/AdminMain"
-// import SignUP from "../frontend/my-app/src/Components/SignUp/signup";
+import Homepage from "../components/HomepageMain";
+// import SignUP from "../frontend/my-app/src/components/SignUp/signup";
 
 export function AllRoutes() {
   return (

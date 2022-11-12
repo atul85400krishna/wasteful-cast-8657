@@ -1,7 +1,7 @@
 import { Box, Heading } from '@chakra-ui/react'
 import React from 'react'
 import NextTrip from './NextTrip'
-import {TopTravelCarousel} from "../components/TopTravelCarousel"
+import {TopTravelCarousel} from "./TopTravelCarousel"
 
 export const Places = () => {
   return (

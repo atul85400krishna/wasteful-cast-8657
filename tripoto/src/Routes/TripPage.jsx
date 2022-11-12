@@ -18,9 +18,9 @@ import {
     FormControl,
     FormLabel,Button,FormHelperText,Input,Spacer,Select,Stack,Checkbox} from '@chakra-ui/react'
 import FaqSection from "./FaqSection";
-import Middle6Part from "../Components/Middle6Part";
+import Middle6Part from "../components/Middle6Part";
 import {useNavigate} from "react-router-dom";
-import {Navbar} from "../Components/Navbar"
+import {Navbar} from "../components/Navbar"
 import { ShowContext } from "../Context/ShowContext";
 
 export default function TripPage(){
