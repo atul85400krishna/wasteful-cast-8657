@@ -1,0 +1,136 @@
+.forms{
+    background-color: rgb(253, 246, 246);
+    position: sticky;
+    top: 0;
+    border-radius:10px;
+    height:800px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:35%;
+    padding-left:20px;
+    padding-right:20px
+}
+.head{
+    font-size: 23px;
+    font-weight: 650;
+}
+.belowHead{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.belowHead>div{
+    display: flex;
+}
+.belowHead>div>img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.belowHead>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+}
+.belowHead>div>p{
+    font-size: 20px;
+}
+.daysPrice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.daysPrice>div{
+    background-color: rgb(30, 176, 176);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.daysPrice>p:nth-child(2){
+    color: forestgreen;
+    font-size: 22px;
+    font-weight: 600;
+}
+.belowPrice{
+    text-align: start;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+  
+}
+.belowPrice>p:nth-child(1){
+    color: gray;
+    
+}
+.highLightBox{
+    display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.highLightBox>div{
+    display: flex;
+}
+.overview{
+    font-size: 23px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 15px;
+}
+.overviewFirst{
+    text-align: start;
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+    
+}
+.overviewSecond{
+    text-align: start;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.lists{
+    width: 80%;
+    margin: auto;
+    text-align: start;
+    color: gray;
+}
+dt{
+    color: blueviolet;
+    font-size: 17px;
+}
+dd{
+    padding-left: 15px;
+}
+.experience{
+    font-size: 36px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .forms{
+       display: none;
+    
+    }
+}
+
+/* @media only screen and (min-height: 725px) {
+    .forms{
+       display: none;
+    
+    }
+} */

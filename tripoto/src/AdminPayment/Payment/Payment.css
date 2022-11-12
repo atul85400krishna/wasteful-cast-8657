@@ -2,15 +2,15 @@
 
 *{
   font-family: 'Poppins', sans-serif;
-  /* margin:0; padding:0; */
+  margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
   text-transform: capitalize;
   transition: all .2s linear;
 }
 .don{
-  background: linear-gradient(90deg, #cbf0da 60%, #8fd3ab 40.1%);
-  padding-bottom:-30px;
+
+    background: linear-gradient(90deg, #cbf0da 60%, #8fd3ab 40.1%);
 }
 
 .container{

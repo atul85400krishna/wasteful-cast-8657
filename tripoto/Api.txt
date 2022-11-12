@@ -1,0 +1,16 @@
+https://tripoto-api-demo.herokuapp.com/bookhotels
+https://tripoto-api-demo.herokuapp.com/partnerships
+https://tripoto-api-demo.herokuapp.com/trip
+https://tripoto-api-demo.herokuapp.com/india
+https://tripoto-api-demo.herokuapp.com/hotels
+https://tripoto-api-demo.herokuapp.com/package
+https://tripoto-api-demo.herokuapp.com/comprehensive
+https://tripoto-api-demo.herokuapp.com/singapore
+https://tripoto-api-demo.herokuapp.com/imagecrousel
+https://tripoto-api-demo.herokuapp.com/sgshop
+https://tripoto-api-demo.herokuapp.com/events
+https://tripoto-api-demo.herokuapp.com/borderdcrousel
+https://tripoto-api-demo.herokuapp.com/topbeach
+https://tripoto-api-demo.herokuapp.com/vlogbeach
+https://tripoto-api-demo.herokuapp.com/topbeachs
+https://tripoto-api-demo.herokuapp.com/    // it will show bad request

@@ -1,0 +1,25 @@
+.CustomPackage{
+    width:63% ;
+    margin:auto;
+    margin-top: 100px;
+    /* border: 1px solid red */
+}
+.customImage{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+@media (max-width: 500px){
+    .CustomPackage{
+        width:80% ;
+        margin:auto;
+        margin-top: 100px;
+    }
+    .customImage{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+    }
+}

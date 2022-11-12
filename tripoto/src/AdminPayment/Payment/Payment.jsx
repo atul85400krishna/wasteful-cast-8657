@@ -1,14 +1,10 @@
 import React from 'react'
 import {Input,Image} from "@chakra-ui/react"
-// import {navigate} from "react-router-dom"
-import {useNavigate} from "react-router-dom";
 import "./Payment.css"
 
 const Payment = () => {
-    const naviagte= useNavigate();
     const don=()=>{
         alert('Payment Sucessfull')
-        naviagte("/")
     }
   return (
         <div className='don'>
