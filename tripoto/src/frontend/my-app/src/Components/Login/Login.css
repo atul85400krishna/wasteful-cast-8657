@@ -1,0 +1,85 @@
+
+.form{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.para+p{
+    display: flex;
+    justify-content: center;
+}
+.para+p+p{
+    display: flex;
+    justify-content: center;
+}
+input[type="email"],input[type="password"],textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 14px;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    border: 1px solid rgb(200,50,89);
+    border-radius: 5px;
+    background-color:rgb(200,50,89);
+    font-weight: bold;
+    color: white;
+    width: 400px;
+}
+.para{
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    border: 1px solid rgb(200,50,89);
+    border-radius: 5px;
+    background-color:rgb(200,50,89);
+    font-weight: bold;
+    color: white;
+    width: 350px;
+}
+
+
+
+
+
+.para:hover{
+    background-color: rgb(200,50,89);
+    color: white;
+}
+input.class{
+    height: 20px;
+    width: 20px;
+}
+.form>h4{
+    color:  rgb(97,97,97);
+    font-size: 90%;
+}
+.form>p{
+    font-size: 80%;
+    color: rgb(97,97,97);
+}
+.form>div{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 1rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
