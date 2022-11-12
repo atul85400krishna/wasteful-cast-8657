@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-elastic-carousel";
-import Item from "../Components/item";
+import Item from "../components/item";
 import axios from "axios";
 import CarouselOne from "./CarouselOne";
 

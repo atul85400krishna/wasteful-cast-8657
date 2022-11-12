@@ -1,8 +1,8 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import BgImage from "../Components/BgImage";
-import CustomPackage from "../Components/CustomPackage";
-import PackageFirstSection from "../Components/PackageFirstSection";
+import BgImage from "../components/BgImage";
+import CustomPackage from "../components/CustomPackage";
+import PackageFirstSection from "../components/PackageFirstSection";
 import Styles from "./Packages.module.css";
 
 function Packages() {
