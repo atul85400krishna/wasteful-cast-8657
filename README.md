@@ -5,7 +5,7 @@ This is a collaborative Project from Masai School in the Construct Week. We are 
 
 <b>1. Atul Krishna : Team Lead</b>
 
-<b>2. Niraj C</b>
+<b>2. Niraj </b>
 
 <b>3. Kedar</b>
 
