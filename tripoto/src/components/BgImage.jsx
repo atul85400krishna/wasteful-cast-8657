@@ -1,6 +1,9 @@
 import { Box, Heading, Input } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styles from "./BgImage.module.css";
+// import { Box, Heading, Input } from "@chakra-ui/react";
+// import React, { useState } from "react";
+// import styles from "./BgImage.module.css";
 
 function BgImage() {
   return (
