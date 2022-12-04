@@ -60,5 +60,5 @@ NetlifyLink :
 I would say, thank you for reading this here. I hope you will find it helpful. I and my teammates completed this project with full enthusiasm, focus, and hard work. It may have some bugs, but we will try to fix them soon.
 
 It was not an easy task to implement the new concepts on the first attempt. I would also thank my team members to make this project successful. Feel free to reach out to us for any feedback.
-## Vercel Repo Link :  https://tripoto-nine.vercel.app/
+## Netilify Repo Link :  https://cosmic-klepon-f5ae52.netlify.app/
  
