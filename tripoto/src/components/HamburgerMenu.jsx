@@ -16,7 +16,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 import { ShowContext } from "../Context/ShowContext";
 import { auth } from "../firebase-config";
-import Login from "./LoginIn";
+// import Login from "./LoginIn";
+import Signin from "./Signin";
 
 function HamburgerMenu() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -95,7 +96,8 @@ function HamburgerMenu() {
                   </button>{" "}
                 </div>
               ) : (
-                <Login />
+                // <Login />
+                <Signin />
               )}
             </Box>
             <br />

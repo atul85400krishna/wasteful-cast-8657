@@ -4,9 +4,9 @@ import { Heading } from "@chakra-ui/react";
 import HomePage from "../components/HomepageMain"
 import Packages from "./Packages";
 import Singapore from "../components/singapore/Singapore";
-import SignUp from "../components/signup"
+
 import Beach from "../components/beaches/Beach";
-import Login from "../components/LoginIn";
+
 import Home_1 from "../components/Home1";
 import PrivateRoute from "../components/PrivateRoute";
 import SingleCardPage from "../components/SingleCardPage";
@@ -33,8 +33,8 @@ export function AllRoutes() {
       <Route path="/booking" element={<Booking/>}/>
       <Route path="/payment" element={<Payment/>}/>
       <Route path="/admin" element={<Admin/>} />
-      <Route path="/login" element={<Login/>} />
-      <Route path="/signup" element={<SignUp/>} />
+      <Route path="/signin" element={<Home_1 />} />
+   
 
 
       {/* <Route path="/signup" element={<Signup/>} /> */}

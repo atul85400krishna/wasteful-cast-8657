@@ -16,7 +16,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ShowContext } from "../Context/ShowContext";
 import styles from "./Navbar.module.css";
-import Login from "./LoginIn";
+import Signin from "./Signin";
 import { signOut, onAuthStateChanged } from "firebase/auth";
 
 import { auth } from "../firebase-config";
@@ -108,11 +108,8 @@ export function Navbar() {
         </Menu>
         <NavLink to="#">Forum</NavLink>
         <NavLink to="/packages">Packages</NavLink>
-        <NavLink>Publish trip</NavLink>
-        <NavLink to="/admin">admin</NavLink>
-        <NavLink to="/login">Login</NavLink>
-
-        {/* <Box cursor="pointer" display="flex" alignItems={"center"}>
+        <NavLink to="/publish">Publish trip</NavLink>
+        <Box cursor="pointer" display="flex" alignItems={"center"}>
           {avatarName || name ? (
             <div>
               {" "}
@@ -124,9 +121,9 @@ export function Navbar() {
               </button>{" "}
             </div>
           ) : (
-             <Login />
+            <Signin />
           )}
-        </Box> */}
+        </Box>
       </Box>
     </Box>
   );
