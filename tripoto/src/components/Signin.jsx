@@ -42,9 +42,11 @@ function Signin() {
 
     const signInWithGoogle=()=>{
       signInWithPopup(auth,provider).then((res)=>{
+        console.log(res)
            setIsAuth(true)
       }).catch((error)=>{
         alert("Something Went wrong")
+        console.log(error)
       })
     }
 
