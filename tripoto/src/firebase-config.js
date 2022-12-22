@@ -4,14 +4,16 @@ import {getAuth} from "firebase/auth"
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBpsmRuCDJbp1qUA0AWJMNUIsKkJFeB2nA",
-    authDomain: "tripoto-clone-authentication.firebaseapp.com",    projectId: "tripoto-clone-authentication",
-    storageBucket: "tripoto-clone-authentication.appspot.com",
-    messagingSenderId: "206673037211",
-    appId: "1:206673037211:web:da494b1f5ab925b6b9033e"
-  };
+  apiKey: "AIzaSyAzOKKoSqkmaHVTQzZzHQsxdDko0eP0vH4",
+  authDomain: "atulkrishna-216d2.firebaseapp.com",
+  projectId: "atulkrishna-216d2",
+  storageBucket: "atulkrishna-216d2.appspot.com",
+  messagingSenderId: "192044543736",
+  appId: "1:192044543736:web:09f3722d1e921eec11150d",
+  measurementId: "G-JM87PBNERZ"
+};
 
-  const app = initializeApp(firebaseConfig);
+  export const app = initializeApp(firebaseConfig);
 
   export const auth=getAuth(app)
 

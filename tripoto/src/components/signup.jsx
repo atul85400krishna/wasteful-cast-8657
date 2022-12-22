@@ -1,117 +1,123 @@
+import React from "react";
+import { auth } from "../firebase-config";
+import { useContext } from "react";
+import { useState } from "react";
+import { ShowContext } from "../Context/ShowContext";
 
-import "./signup.css"
-import { useRef , useState, useEffect} from "react"
-import Login from "./LoginIn"
-import {Link, useNavigate} from "react-router-dom"
-import {useToast } from '@chakra-ui/react'
+import {
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+  updateCurrentUser,
+  signOut,
+} from "firebase/auth";
 
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  FormControl,
+  Button,
+  FormLabel,
+  useDisclosure,
+  Input,
+  Box,
+} from "@chakra-ui/react";
 
+const Signup = ({ change }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const initialRef = React.useRef(null);
+  const finalRef = React.useRef(null);
 
-export  default  function SignUP(){
-const email=useRef()
-const name=useRef()
-const lastName=useRef()
-const pass=useRef()
-const [showLogin,setShowLogin]=useState(false)
-const [show,setShow]=useState(false)
- const localSignUp=localStorage.getItem("signUp")
- const localEmail=localStorage.getItem("email")
- const localLastName=localStorage.getItem("lastName")
- const localPassword=localStorage.getItem("password")
- const localName=localStorage.getItem("name")
- const toast = useToast()
+  const [registerEmail, setRegisterEmail] = useState("");
+  const [registerPassword, setRegisterPassword] = useState("");
+  const [registerName, setRegisterName] = useState("");
+  const [registerSurname, setRegisterSurname] = useState("");
+  const { isAuth, setIsAuth } = useContext(ShowContext);
 
-const navigate=useNavigate()
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-// useEffect(()=>{
-//     if(localSignUp){
-//         setShowLogin(true)//true
-//     }
-//     if(localEmail){
-//         setShow(true)//true
-//     }
-//    })
-
-const handleClick=(event)=>{
-event.preventDefault()
- console.log(name.current.value,email.current.value, lastName.current.value, pass.current.value)
-  if(name.current.value && email.current.value && lastName.current.value && pass.current.value){
-    localStorage.setItem("name",name.current.value)
-    localStorage.setItem("email",email.current.value)
-    localStorage.setItem("lastName",lastName.current.value)
-    localStorage.setItem("password",pass.current.value)
-    localStorage.setItem("signUp",email.current.value)
-    alert("Account created successfully!!");
-  
-    navigate("/login")
-    window.location.reload()
-    toast({
-        title: 'Account created.',
-        description: "We've created your account for you.",
-        status: 'success',
-        duration: 9000,
-        isClosable: true,
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setLoading(true);
+    createUserWithEmailAndPassword(auth, registerEmail, registerPassword)
+      .then((res) => {
+        setIsAuth(true);
+        alert("SignUp Successful !");
+        setLoading(false);
       })
-       window.location.reload()
-     
-   
-   
+      .then((err) => {
+        setError(err);
+      });
+  };
 
+  return (
+    <>
+      <Box onClick={onOpen} className="hover" color="#2f9bdb">
+        Sign Up
+      </Box>
 
+      <Modal
+        initialFocusRef={initialRef}
+        finalFocusRef={finalRef}
+        isOpen={isOpen}
+        onClose={onClose}
+        size="xs"
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Sign Up</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <FormControl>
+              <FormLabel>First Name</FormLabel>
+              <Input
+                ref={initialRef}
+                placeholder="First name"
+                onChange={(e) => setRegisterName(e.target.value)}
+              />
+            </FormControl>
+            <FormControl>
+              <FormLabel>Last Name</FormLabel>
+              <Input
+                ref={initialRef}
+                placeholder="Last name"
+                onChange={(e) => setRegisterSurname(e.target.value)}
+              />
+            </FormControl>
 
-  }if(name.current.value==="" && email.current.value ==="" && lastName.current.value==="" && 
-  pass.current.value===""){
-alert("plz fill in to continue")
-toast({
-    title: 'SignUp Failed.',
-    description: "please fill in all the details to SignUp.",
-    status: 'warning',
-    duration: 9000,
-    isClosable: true,
-  })
+            <FormControl>
+              <FormLabel>Email</FormLabel>
+              <Input
+                ref={initialRef}
+                placeholder="Enter email"
+                onChange={(e) => setRegisterEmail(e.target.value)}
+              />
+            </FormControl>
 
+            <FormControl mt={4}>
+              <FormLabel>Password</FormLabel>
+              <Input
+                placeholder="Enter Password"
+                onChange={(e) => setRegisterPassword(e.target.value)}
+              />
+            </FormControl>
+          </ModalBody>
 
+          <ModalFooter>
+            <Button bgColor='#f27669' color="white" w="100%" onClick={handleSubmit}>
+              Submit
+            </Button>
+            {/* <Button onClick={() => change()}>Cancel</Button> */}
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+    </>
+  );
+};
 
-
-  }
-}
-
-const handleSignIn=()=>{
-    if(email.current.value==localEmail && pass.current.value==localPassword){
-        localStorage.setItem("signUp",email.current.value)
-        window.location.reload()
-    }else{
-        alert("Please Enter valid Credential")
-    }
-   }
-return (
-<div>
-<div className="One">
-<form className="form">
-        <h2>Create an account</h2>
-        <input id="email" type="email" name="email" placeholder="Email address" ref={email}     /> <br />
-         <input id="name" type="text" name="name" placeholder="First name" ref={name}    /><br/>
-         <input id="LastName" type="Lasttext" name="LastName" placeholder="Last name" ref={lastName}   /><br />
-        <input id="pass" type="password" placeholder="Password"  ref={pass}   /> <br/>
-        
-        <h4><input type="checkbox" class="check" /> Keep me signed in</h4>
-        <p>
-            Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</p>
-       <p>
-        By creating an account, I agree to the Tripoto
-         <a href="https://www.tripoto.com/privacy-policy">  Terms and Conditions</a>, 
-         <a href="https://www.tripoto.com/privacy-policy"> Privacy Statement</a> 
-         & <a href="https://www.tripoto.com/privacy-policy"> Tripoto Rewards Terms and Conditions.</a>
-       </p> 
-        <button  className="button" onClick={handleClick} >Continue</button>
-            <p>Already have an account?
-                <Link to="/login" >Log In</Link></p>
-        </form>
-    </div>
-</div>
-
-    
-)
-}
-
-
+export default Signup;
