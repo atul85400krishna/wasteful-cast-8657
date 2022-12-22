@@ -24,33 +24,33 @@ tripRoute.get("/trip",async(req,res)=>{
     }
 })
 
-// tripRoute.get("/place",async(req,res)=>{
-//     try{
-//        const trip = await TripModel.find({category:"Places"})
-//        res.status(200).json(trip)
-//     }catch(err){
-//         res.status(201).json(err)
-//     }
-// })
+tripRoute.get("/place",async(req,res)=>{
+    try{
+       const trip = await TripModel.find({category:"Places"})
+       res.status(200).json(trip)
+    }catch(err){
+        res.status(201).json(err)
+    }
+})
 
-// tripRoute.get("/hotel",async(req,res)=>{
-//     try{
-//        const trip = await TripModel.find({category:"hotels"})
-//        res.status(200).json(trip)
-//     }catch(err){
-//         res.status(201).json(err)
+tripRoute.get("/hotel",async(req,res)=>{
+    try{
+       const trip = await TripModel.find({category:"hotels"})
+       res.status(200).json(trip)
+    }catch(err){
+        res.status(201).json(err)
         
-//     }
-// })
+    }
+})
 
-// tripRoute.get(":key",async(req,res)=>{
-//     let data= await TripModel.find({
-//         "$or":[
-//         {"category":{$regex:req.params.key}}
-//         ]
+tripRoute.get(":key",async(req,res)=>{
+    let data= await TripModel.find({
+        "$or":[
+        {"category":{$regex:req.params.key}}
+        ]
     
-//     })
-// })
+    })
+})
 
 
 

@@ -14,3 +14,5 @@ https://tripoto-api-demo.herokuapp.com/sgshop
 https://tripoto-api-demo.herokuapp.com/events
 https://tripoto-api-demo.herokuapp.com/borderdcrousel
 https://tripoto-api-demo.herokuapp.com/    // it will show bad request
+
+
