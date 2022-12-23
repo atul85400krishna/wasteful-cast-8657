@@ -109,6 +109,7 @@ export function Navbar() {
         <NavLink to="#">Forum</NavLink>
         <NavLink to="/packages">Packages</NavLink>
         <NavLink to="/publish">Publish trip</NavLink>
+        <NavLink to="/admin">admin</NavLink>
         <Box cursor="pointer" display="flex" alignItems={"center"}>
           {avatarName || name ? (
             <div>
