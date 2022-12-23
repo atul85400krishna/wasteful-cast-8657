@@ -21,7 +21,7 @@ export default function Middle6Part() {
     },[])
     
     function getData(){
-       axios.get("https://avdhoot-fake-api.herokuapp.com/bookhotels").then((res)=>setData(res.data
+       axios.get("https://filthy-teal-narwhal.cyclic.app/atul").then((res)=>setData(res.data
        ))
     }
 

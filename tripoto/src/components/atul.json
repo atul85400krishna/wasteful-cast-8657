@@ -1,0 +1,34 @@
+{
+    "atul":[{
+        "img":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657204838_omya_img_cover_b.jpg",
+        "title":"Paraglide Over The Dhauladar Mountains on this Luxury Glamping Retreat | Omya Forest Camps, Bir",
+        "place":"darbhnaga",
+        "cost":"10,770"
+    },
+    {
+        "img":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1670945801_screenshot_2022_12_13_at_3_46_59_pm.png",
+        "title":"Master Outdoor Survival & Learn Pottery at a Quaint Farmstay",
+        "cost":"20,770",
+        "place":"Patna"
+    },
+    {
+        "img":"https://www.tripoto.com/collections/tour-packages/saddle-up-for-horse-riding-and-indulge-in-equine-therapy-at-chandsen-eco-dera-166973898955",
+        "title":" Saddle up for Horse Riding or Unwind with Wellness Therapies, Movie Nights & Hikes|Chandsen Eco Dera",
+        "cost":" 21,770",
+        "place":"delhi"
+    },
+    {
+        "img":"https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1654504108_ce_c1.jpg",
+        "title":"Hike to Gallu Waterfall & Find the Joy of Doing Nothing | Cosmic Geeks, Dharamkot",
+        "cost":"19,770",
+        "place":"Mumbai"
+    },
+    {
+        "img":"https://cdn1.tripoto.com/media/filter/nxxl/img/2163002/Image/1638779569_lead_form_b.png",
+        "title":"Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli",
+        "cost":"19,770",
+        "place":"rajnagar"
+    }
+
+]
+}
