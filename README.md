@@ -1,4 +1,3 @@
-
 # wasteful-cast-8657
 # Clone of Tripoto
 
@@ -11,7 +10,11 @@ This is a collaborative Project from Masai School in the Construct Week. We are 
 <b>3. Kedar</b>
 
 <b>4.Deeksha</b>
-
+![Screenshot (1838)](https://user-images.githubusercontent.com/83273099/209441469-5913e255-c2c9-42ed-9343-fb9d5342dd18.png)
+![Screenshot (1839)](https://user-images.githubusercontent.com/83273099/209441473-d3263a87-e134-4f15-a208-bcd4a53ee7b4.png)
+![Screenshot (1840)](https://user-images.githubusercontent.com/83273099/209441474-07a66ec6-826d-4e9d-918c-cdbd47ba7a40.png)
+![Screenshot (1841)](https://user-images.githubusercontent.com/83273099/209441480-abbe6453-2807-4bc8-b41b-56586da71a98.png)
+![Screenshot (1842)](https://user-images.githubusercontent.com/83273099/209441482-320a751a-85d7-4a7d-b6f5-5073184c195f.png)
  
 
 Firstly let’s know about Tripto. Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.
@@ -29,7 +32,7 @@ These are the technologies used in this project which are available below:
 #### For Frontend : HTML5, CSS3, Javascript, JS6, ReactJS
 #### For database: MongoDB
 #### For authentication: Firebase  
-<img src="https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg"   />
+
 
 # Functionalities we made:
 ## Admin_Pages :
