@@ -14,18 +14,20 @@ import Topbeach from "./Topbeach";
 import Package from "./Package";
 import Comprehensive from "./Comprehensive"
 import { ShowContext } from "../../Context/ShowContext";
+import { Box,Image } from "@chakra-ui/react";
 const Beach = () => {
   const {show,setShow} = useContext(ShowContext)
-  const [beachgrid, setBeachgrid] = useState([]);
+  const [beachgrid, setBeachgrid] = useState();
   const [vlogData, setVlogData] = useState([]);
   //change
   useEffect(() => {
     axios
-      .get("https://tripoto-api-demo.herokuapp.com/topbeach")
+      .get( "https://filthy-teal-narwhal.cyclic.app/VlogBeach")
       // .get("https://tripoto-api-demo.herokuapp.com/vlogbeach")
       .then((res) => {
-        setBeachgrid(res.data.TopBeach);
-        // setVlogData(res.data.VlogBeach);
+        setBeachgrid(res.data);
+        setVlogData(res.data);
+        console.log(res.data);
   
       });
   }, []);
@@ -34,10 +36,11 @@ const Beach = () => {
   useEffect(() => {
     axios
       // .get("https://tripoto-api-demo.herokuapp.com/topbeach")
-      .get("https://tripoto-api-demo.herokuapp.com/vlogbeach")
+      .get("https://filthy-teal-narwhal.cyclic.app/VlogBeach")
       .then((res) => {
-        // setBeachgrid(res.data.TopBeach);
-        setVlogData(res.data.VlogBeach);
+        setBeachgrid(res.data);
+        setVlogData(res.data);
+        console.log(res.data);
   
       });
   }, []);
@@ -48,6 +51,7 @@ const Beach = () => {
   function SampleNextArrow(props) {
     const { onClick } = props;
     return (
+
       <div  style={{fontSize:"45px",color:"rgb(56,159,221)",backgroundColor:"transparent",position:"absolute",right:"-18px"}}>
       <IoIosArrowDropright
            onClick={onClick}
@@ -113,11 +117,19 @@ const Beach = () => {
 
   return (
     <BeachWrapper>
+       {/* <Box
+       border="1px solid red" h="100px" w="100%" >
+          <Image src="https://cdn1.tripoto.com/media/filter/nxxl/img/2215463/Image/1669192913_nikos_zacharoulis_o2wggezvva4_unsplash.jpg"></Image>
+       </Box>
+      */}
+
+      <img src="https://cdn1.tripoto.com/media/filter/nxxl/img/2215463/Image/1669192913_nikos_zacharoulis_o2wggezvva4_unsplash.jpg" alt="" />
       <br />
       <br />
       <br />
       <h1 style={{ }}>Beaches</h1>
       <text >
+        
         The crunch of white sand beneath your feet and the thundering ocean
         beckoning you into its cool waters. Explore all you need to know about
         taking a trip to the beach!
