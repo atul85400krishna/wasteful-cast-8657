@@ -11,9 +11,11 @@ import {
   Text,
 } from "@chakra-ui/react";
 import Hotels from "./hotels/Hotels";
+import Hotel from "./hotels/Hotel";
 import Place from "./place/Place";
 import Trip from "./trip/Trip";
 import Overview from "./overview/Overview";
+import {Link} from "react-router-dom"
 
 const Products = () => {
   return (
@@ -31,20 +33,32 @@ const Products = () => {
             station - Chhatrapati Shivaji Terminus, in people-watching and
             eating
           </Text>
-        </Box>
-        <div paddingBottom={20}>
-          <Button size="lg" colorScheme="green" maxWidth="92%" textAlign="left" >
+        <div paddingBottom={20} textAlign="center" margin="auto">
+          <Button size="lg" colorScheme="green" maxWidth="25%" textAlign="center" margin="auto"  >
            Get Customized Packages
           </Button>
 
         </div>
+        </Box>
         <div>
           <Tabs maxW="92%" textAlign="center" margin="auto">
             <TabList>
+           <Link to="/">
               <Tab fontSize={22} fontWeight="bold">Overview</Tab>
+
+           </Link>
+           <Link to="/mumbai/trip">
               <Tab fontSize={22} fontWeight="bold">Trip</Tab>
+
+           </Link>
+           <Link to="/mumbai/place">
               <Tab fontSize={22} fontWeight="bold">Places</Tab>
+
+           </Link>
+           <Link to="/mumbai/hotel">
               <Tab fontSize={22} fontWeight="bold">Hotels</Tab>
+
+           </Link>
             </TabList>
 
             <TabPanels>

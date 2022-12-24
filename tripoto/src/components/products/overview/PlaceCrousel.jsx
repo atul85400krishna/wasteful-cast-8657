@@ -16,12 +16,12 @@ import {
   ButtonGroup,
   Divider,
 } from "@chakra-ui/react";
-const EatCrousel = () => {
+const PlaceCrousel = () => {
   let reco = [
     {
       title: "Forigner Explores Mumbai ",
       image:
-        "https://cdn1.tripoto.com/media/filter/tst/img/616275/Image/1546520238_gateway_of_india.jpg",
+        "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526457016_sea.jpg",
 
       section: "Recommends",
       Tag: "VIDEO GUIDE",
@@ -29,7 +29,7 @@ const EatCrousel = () => {
     {
       title: "Why It's Hard To Live Anywhere ",
       image:
-        "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526456637_mumbai.jpg",
+        "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526457165_marine.jpeg",
 
       section: "Recommends",
       Tag: "READ",
@@ -37,7 +37,7 @@ const EatCrousel = () => {
     {
       title: "Dehene Village -A Hidden Monsoon",
       image:
-        "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1600032953_dehene.jpg",
+        "https://static2.tripoto.com/media/filter/tst/img/1/SpotDocument/84349882.jpg",
 
       section: "Recommends",
       Tag: "READ",
@@ -45,7 +45,7 @@ const EatCrousel = () => {
     {
       title: "Best Hotels In Mumbai",
       image:
-        "https://cdn1.tripoto.com/media/filter/tst/img/1/Image/1510074062_100058763_1.jpg",
+        "https://static2.tripoto.com/media/filter/tst/img/249369/SpotDocument/1472834065_1472834065_img_2234.jpg",
 
       section: "Recommends",
       Tag: "STAY",
@@ -53,7 +53,7 @@ const EatCrousel = () => {
     {
       title: "Best Hotels In Mumbai",
       image:
-        "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526456731_mum.jpg",
+        "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526457313_dharavi.jpg",
 
       section: "Recommends",
       Tag: "Explore",
@@ -77,7 +77,7 @@ const EatCrousel = () => {
   return (
     <>
     
-    <Heading size="lg" paddingLeft={0}>Tripoto Recommends: Mumbai</Heading>
+    <Heading size="lg" paddingLeft={0}>All You Can Eat In Mumbai</Heading>
       <Carousel
         responsive={responsive}
         infinite={true}
@@ -121,4 +121,4 @@ const EatCrousel = () => {
   );
 };
 
-export default EatCrousel;
+export default PlaceCrousel;

@@ -19,7 +19,7 @@ const Luxry = () => {
         {
           title: "Forigner Explores Mumbai ",
           image:
-            "https://cdn1.tripoto.com/media/filter/tst/img/616275/Image/1546520238_gateway_of_india.jpg",
+            "https://cdn1.tripoto.com/media/filter/tst/img/1/Image/1516512602_34412063.jpg",
     
           price: "5999",
           Tag: "VIDEO GUIDE",
@@ -27,7 +27,7 @@ const Luxry = () => {
         {
           title: "Why It's Hard To Live Anywhere ",
           image:
-            "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526456637_mumbai.jpg",
+            "https://cdn1.tripoto.com/media/filter/tst/img/1/Image/1516512686_25339753.jpg",
     
           price: "5999",
           Tag: "READ",
@@ -35,7 +35,7 @@ const Luxry = () => {
         {
           title: "Dehene Village -A Hidden Monsoon",
           image:
-            "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1600032953_dehene.jpg",
+            "https://cdn1.tripoto.com/media/filter/tst/img/1/Image/1516512713_103703163.jpg",
     
           price: "5999",
           Tag: "READ",
@@ -69,7 +69,7 @@ const Luxry = () => {
   return (
 
     <>
-     <Heading paddingBottom={10} size="lg" paddingLeft={0}>Tripoto Edit: Mumbai</Heading>
+     <Heading paddingBottom={10} size="lg" paddingLeft={0}>Best Luxury Hotels In Mumbai</Heading>
       <SimpleGrid
         spacing={10}
         templateColumns="repeat(auto-fill, minmax(260px, 1fr))"
