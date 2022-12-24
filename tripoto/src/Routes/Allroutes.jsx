@@ -42,7 +42,8 @@ export function AllRoutes() {
       <Route path="/booking" element={<Booking/>}/>
       <Route path="/payment" element={<Payment/>}/>
       <Route path="/admin" element={<Admin/>} />
-      <Route path="/signin" element={<Home_1 />} />
+      <Route path="/signin" element={<Home_1 />} 
+
    
 
 
