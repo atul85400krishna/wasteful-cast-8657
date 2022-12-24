@@ -1,7 +1,4 @@
-![Screenshot (1833)](https://user-images.githubusercontent.com/83273099/209441060-ec42bbb2-6cb8-436c-9ec7-f317388c1819.png)
-![Screenshot (1834)](https://user-images.githubusercontent.com/83273099/209441064-d79f2cdd-a1f2-4be9-8dac-46b59d9924cc.png)
-![Screenshot (1835)](https://user-images.githubusercontent.com/83273099/209441065-456295fb-6bc8-401b-bb17-a5213b20f1b3.png)
-![Screenshot (1836)](https://user-images.githubusercontent.com/83273099/209441068-d9b562aa-6a9f-4840-a347-beeaee3df8ac.png)
+
 # wasteful-cast-8657
 # Clone of Tripoto
 
