@@ -9,6 +9,8 @@ import { countries } from "./countries";
 import styled from "styled-components";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
+import Seacrh from "./Search";
+
 const Homepage = () => {
   const { show, setShow } = useContext(ShowContext);
   const [result, setResults] = useState("");
@@ -46,12 +48,15 @@ const Homepage = () => {
               <Heading mb={"12px"} size="lg" color={"white"}>
               India's Largest Community of Travellers
               </Heading>
-              <Input value={result}
+               
+             < Seacrh/>
+               
+              {/* <Input value={result}
                 width={"80%"}
                 onChange={handleResult}
                 backgroundColor={"white"}
                 placeholder="Search for itineraries, destinations, hotels or activities"
-              />
+              /> */}
               {/* // )}
             // {!show && ( */}
               <Resulter id="suggestion" limit={5}>
