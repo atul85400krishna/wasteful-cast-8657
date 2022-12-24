@@ -28,6 +28,7 @@ These are the technologies used in this project which are available below:
 #### For Frontend : HTML5, CSS3, Javascript, JS6, ReactJS
 #### For database: MongoDB
 #### For authentication: Firebase  
+<img src="https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg"   />
 
 # Functionalities we made:
 ## Admin_Pages :
