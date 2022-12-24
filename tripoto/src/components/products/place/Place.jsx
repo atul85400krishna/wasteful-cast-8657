@@ -15,7 +15,7 @@ const Place = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [notes, setNotes] = useState("");
-  useEffect(() => {
+  const getdata=()=>{
     setLoading(true);
     fetch("https://raspberry-ray-tie.cyclic.app/mumbai/place", {})
       .then((res) => res.json())
@@ -29,6 +29,9 @@ const Place = () => {
         setError(true);
         setLoading(false);
       });
+  }
+  useEffect(() => {
+    getdata()
   }, []);
 
   return (

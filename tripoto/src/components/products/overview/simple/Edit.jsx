@@ -19,7 +19,7 @@ const Hotels = () => {
         {
           title: "Forigner Explores Mumbai ",
           image:
-            "https://cdn1.tripoto.com/media/filter/tst/img/616275/Image/1546520238_gateway_of_india.jpg",
+            "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1529500570_mums.jpeg",
     
           price: "5999",
           Tag: "VIDEO GUIDE",
@@ -27,7 +27,7 @@ const Hotels = () => {
         {
           title: "Why It's Hard To Live Anywhere ",
           image:
-            "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1526456637_mumbai.jpg",
+            "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1529500576_1526734545_img_7426.jpg",
     
           price: "5999",
           Tag: "READ",
@@ -35,7 +35,7 @@ const Hotels = () => {
         {
           title: "Dehene Village -A Hidden Monsoon",
           image:
-            "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1600032953_dehene.jpg",
+            "https://cdn1.tripoto.com/media/filter/tst/img/567364/Image/1529500593_1482743965_2585873311_b5115aac2d_o.jpg",
     
           price: "5999",
           Tag: "READ",
@@ -69,7 +69,7 @@ const Hotels = () => {
   return (
 
     <>
-     <Heading paddingBottom={10} size="lg" paddingLeft={0}>Tripoto Edit: Mumbai</Heading>
+     <Heading paddingBottom={10} size="lg" paddingLeft={0}>Best Places To Visit In Mumbai</Heading>
       <SimpleGrid
         spacing={10}
         templateColumns="repeat(auto-fill, minmax(260px, 1fr))"

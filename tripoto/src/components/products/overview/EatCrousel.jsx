@@ -16,7 +16,7 @@ import {
   ButtonGroup,
   Divider,
 } from "@chakra-ui/react";
-const PlaceCrousel = () => {
+const EatCrousel = () => {
   let reco = [
     {
       title: "Forigner Explores Mumbai ",
@@ -85,7 +85,7 @@ const PlaceCrousel = () => {
         swipeable={true}
         centerMode={true}
         autoPlay={true}
-        autoPlaySpeed={3000}
+        
         keyBoardControl={true}
         showDots={false}
         removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -121,4 +121,4 @@ const PlaceCrousel = () => {
   );
 };
 
-export default PlaceCrousel;
+export default EatCrousel;

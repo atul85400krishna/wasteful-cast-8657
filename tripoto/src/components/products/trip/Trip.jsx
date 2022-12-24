@@ -18,7 +18,7 @@ const Trip = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [notes, setNotes] = useState("");
-  useEffect(() => {
+  let getdata=()=>{
     setLoading(true);
     fetch("https://raspberry-ray-tie.cyclic.app/mumbai/trip", {})
       .then((res) => res.json())
@@ -32,7 +32,11 @@ const Trip = () => {
         setError(true);
         setLoading(false);
       });
+  }
+  useEffect(() => {
+   getdata()
   }, []);
+
   return (
     <>
       <SimpleGrid
