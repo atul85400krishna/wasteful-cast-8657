@@ -5,11 +5,11 @@ This is a collaborative Project from Masai School in the Construct Week. We are 
 
 <b>1. Atul Krishna : Team Lead</b>
 
-<b>2. Niraj </b>
+<b>2. Niraj kumar </b>
 
-<b>3. Kedar</b>
+<b>3. Kedar Pathak</b>
 
-<b>4.Deeksha</b>
+<b>4.Deeksha Rajpurohit</b>
 ![Screenshot (1838)](https://user-images.githubusercontent.com/83273099/209441469-5913e255-c2c9-42ed-9343-fb9d5342dd18.png)
 ![Screenshot (1839)](https://user-images.githubusercontent.com/83273099/209441473-d3263a87-e134-4f15-a208-bcd4a53ee7b4.png)
 ![Screenshot (1840)](https://user-images.githubusercontent.com/83273099/209441474-07a66ec6-826d-4e9d-918c-cdbd47ba7a40.png)
