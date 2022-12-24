@@ -78,7 +78,7 @@ function Signin() {
         >
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Sign in</ModalHeader>
+            <ModalHeader>Sign_In</ModalHeader>
             <Button backgroundColor="rgb(74,102,160)"  color="white" _hover={{bg:"rgb(74,102,160)"}}  letterSpacing="0.6px" fontFamily="sans-serif" fontWeight="500" width="89%" margin="auto" marginTop='5px' marginBottom="5px"><FaFacebookF style={{paddingRight:"5px"}} size={22}/>Log in with Facebook</Button>
            
             <Button backgroundColor="white" fontWeight="500" letterSpacing="0.6px" fontFamily="sans-serif" width="89%" margin="auto" marginTop='5px' marginBottom="5px" onClick={signInWithGoogle}><FcGoogle style={{paddingRight:"5px"}} size={28} />Log in with google</Button>
