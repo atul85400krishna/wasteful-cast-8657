@@ -9,9 +9,9 @@ const Topbeach = () => {
     const [topBeach, setTopBeach] = useState([]);
     useEffect(() => {
         axios
-          .get("https://tripoto-api-demo.herokuapp.com/topbeaches")
+          .get("https://filthy-teal-narwhal.cyclic.app/atul_TopBeach")
           .then((res) => {
-            setTopBeach(res.data.TopBeaches
+            setTopBeach(res.data
               );
           });
       }, []);

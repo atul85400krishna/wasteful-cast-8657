@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+// import Carousel from "react-multi-carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -18,15 +19,17 @@ import {
 } from "../../styles/beachpackage.styled";
 import {FaMapMarkerAlt} from "react-icons/fa";
 import { PackageWrapper } from "../../styles/beachpackage.styled";
+import { Link } from "react-router-dom";
 
 const Package = () => {
   const [packag, setPackage] = useState([]);
   useEffect(() => {
     axios
-      .get('https://tripoto-api-demo.herokuapp.com/package')
+      .get("https://filthy-teal-narwhal.cyclic.app/atul")
       .then((res) => {
-        setPackage(res.data.PackageData
-          );
+        setPackage(res.data);
+        setVlogData(res.data);
+        // console.log(res.data);
       });
   }, []);
 
@@ -52,6 +55,9 @@ const Package = () => {
     const { onClick } = props;
 
     return (
+      //  <div style={{ position: "relative",width:"80%",margin:"auto",marginBottom:'30px' }}>
+      // <p id="middlepart_p" style={{fontSize:"30px",fontWeight:"700",marginTop:"20px",textAlign:"start",paddingLeft:"4%",marginBottom:"20px"}}>Travel and Learn with Tripoto's Mindful Retreats</p>
+      //   <Carousl responsive={responsive}> 
       <div
         style={{
           fontSize: "45px",
@@ -63,6 +69,7 @@ const Package = () => {
           bottom:"285px"
         }}
       >
+        
         <IoIosArrowDropleft onClick={onClick} />
       </div>
     );
@@ -120,26 +127,31 @@ const Package = () => {
         {packag &&
           packag.map((ele) => (
             <WeseriesCard key={ele._id}>
-              <img src={ele.image}></img>
-              <PackageWrapper>{ele.type}</PackageWrapper>
+              <img src={ele.img}></img>
+              {/* <PackageWrapper>{ele.type}</PackageWrapper> */}
+              {/* <PackageWrapper>hello</PackageWrapper> */}
               <TitleWrapper>{ele.title}</TitleWrapper>
               <LoactionWrapper>
                 <LogoWrapper>
                 <FaMapMarkerAlt/>
-                <h5>{ele.location}</h5>
+                <h5>{ele.place}</h5>
                 </LogoWrapper>
                 <DaybuttonWrapper>
-                  {ele.button}
+                  {/* {ele.button}
+                   */}
+                2D-1N
                 </DaybuttonWrapper>
         
               </LoactionWrapper>
                <PriceWrapper>
                 <PersonWrapper>
-                <h3>{ele.price}</h3>
-                <h6>{ele.person}</h6>
+                <h3>{ele.cost}</h3>
+                {/* <h6>{ele.person}</h6> */}
+                <h6>/Person</h6>
                 </PersonWrapper>
                 <Getquotes>
-                {ele.quotes}
+                {/* {ele.quotes} */}
+                <Link to={`/TripPage/${ele.id}`}>Book Now</Link>
                 </Getquotes>
               
                </PriceWrapper>

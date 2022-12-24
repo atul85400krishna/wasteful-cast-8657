@@ -93,7 +93,7 @@ const Comprehensive = () => {
   return (
     <WebseriesWrapper>
       <div>
-        <h1>Explore Our Comprehensive Guides for More Details</h1>
+        {/* <h1>Explore Our Comprehensive Guides for More Details</h1> */}
       </div>
       <Slider
         {...settings}
